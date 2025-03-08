@@ -1,0 +1,24 @@
+@LancamentosService_HostAddress = http://localhost:5118
+### Create a new lancamento
+POST {{LancamentosService_HostAddress}}/lancamentos
+Content-Type: application/json
+
+{ 
+  "data": "2025-03-08T00:00:00Z",
+  "valor": 100.0,
+  "tipo": 0,
+  "descricao": "Credito"
+}
+
+### Create a new lancamento Debito
+
+POST {{LancamentosService_HostAddress}}/lancamentos
+Content-Type: application/json
+
+{ 
+  "data": "2025-03-08T00:00:00Z",
+  "valor": 100.0,
+  "tipo": 1,
+  "descricao": "Debito"
+}
+
