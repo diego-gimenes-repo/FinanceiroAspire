@@ -116,6 +116,7 @@ A solução emprega:
 
 Evidencias do teste de performance no servico consolidado:
 
+![teste de performance](performance.png)
 
 
 ---
