@@ -125,11 +125,11 @@ Evidencias do teste de performance no servico consolidado:
 ### 1. Escalabilidade
 
 #### 1.1 Kubernetes (Recomendado para produção)  
-- Deployments individuais por serviço.  
+- o ideal é o deployment individual por serviço.  
 - **HPA (Horizontal Pod Autoscaling)** com base em métricas.  
 - Rollouts controlados sem downtime.  
 
-#### 1.2 Alternativa: Docker Swarm  
+#### 1.2 Alternativa: Docker Swarm - Desenvolviento local  
 - Serviços globais para componentes críticos.  
 - Replicação configurável.  
 - Overlay networks para comunicação segura.  
