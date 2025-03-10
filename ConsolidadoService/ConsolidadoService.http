@@ -1,6 +1,6 @@
 @ConsolidadoService_HostAddress = http://localhost:5278
 ### get consolidado por data
-GET {{ConsolidadoService_HostAddress}}/consolidado?date=2025-03-08
+GET {{ConsolidadoService_HostAddress}}/consolidado?date=2025-03-10
 Accept: application/json
 
 
