@@ -56,8 +56,6 @@ A solução emprega:
    - Execute as requisições para testar a aplicação.
 
 
-### Evidencia de performance
-![Teste de performance](performance.png)
 
 ## Arquitetura do Sistema
 
