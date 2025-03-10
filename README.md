@@ -39,8 +39,25 @@ A solução emprega:
 
 1. Clone o repositório:
    ```bash
-   git clone 
-	
+   git clone https://github.com/diego-gimenes-repo/FinanceiroAspire
+
+   cd FinanceiroAspire
+   ```
+2. Inicie os serviços:
+   ```bash
+   docker-compose up -d
+   ```
+3. Execute a aplicação:
+   ```bash
+   dotnet run --project FinanceiroAspire.AppHost/FinanceiroAspire.AppHost.csproj
+   ```
+4. Importe a coleção do Postman:
+   - Abra o Postman e importe o arquivo `Test Opah.postman_collection.json`.
+   - Execute as requisições para testar a aplicação.
+
+
+### Evidencia de performance
+![Teste de performance](performance.png)
 
 ## Arquitetura do Sistema
 
